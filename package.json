@@ -1,0 +1,31 @@
+{
+  "name": "drawiosplitter",
+  "version": "1.0.0",
+  "description": "Split draw.io files into individual pages",
+  "main": "split_drawio.js",
+  "bin": {
+    "split-drawio": "./split_drawio.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ."
+  },
+  "keywords": [
+    "drawio",
+    "split"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmldom": "^0.6.0"
+  },
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  }
+}
